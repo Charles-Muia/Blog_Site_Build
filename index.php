@@ -48,7 +48,21 @@
                        <li><a href="#">contact us</a></li>
                        <li><a href="#">trending</a></li>
                    </ul>
+                        <div class="menu">
+                            <i class="fa fa-bars"></i>
+                        </div>
             </div>
+                        <div class="mobile-nav">
+                            <ul class="nav-list">
+                                <li><a href="#">home</a></li>
+                                <li><a href="#">about me</a></li>
+                                <li><a href="#">blog</a></li>
+                                <li><a href="#">our services</a></li>
+                                <li><a href="#">testimonials</a></li>
+                                <li><a href="#">contact us</a></li>
+                                <li><a href="#">trending</a></li>
+                            </ul>
+                        </div>
         </header>
 
 <!----------------------------------------Blog site hero section--------------------------------------------->
@@ -209,7 +223,7 @@
                                     <a href="#">design</a>
                                 </div>
                                 <div class="card-text">
-                                    <h4>10 tips of a grand designs</h4>
+                                    <h4>10 tips grand designs</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                         Adipisci aspernatur consectetur consequuntur,
                                         culpa cumque dignissimos impedit itaque obcaecati rerum voluptate!</p>
@@ -238,6 +252,19 @@
                     </div>
             </div>
         </footer>
+
+<!----------------------------------------Script for the responsive mobile menu section--------------------------------------------->
+
+            <script>
+
+                    let menu = document.querySelector('.menu');
+                    let mobileNav = document.querySelector('.mobile-nav');
+
+                    menu.addEventListener('click', function () {
+                        mobileNav.classList.toggle('active');
+                    });
+
+            </script>
 
 </body>
 </html>
