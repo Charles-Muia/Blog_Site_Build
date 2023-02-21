@@ -179,8 +179,9 @@
         }
 
         main .content p {
-                color: #5b5963;
+                /*color: #5b5963;*/
                 margin: 1rem 0;
+                color: #222222;
         }
 
         main .content h4 {
