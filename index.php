@@ -40,9 +40,9 @@
             <div class="navbar container">
                 <div class="logo"><h1>Blog Site</h1></div>
                    <ul class="nav-list">
-                       <li><a href="#">home</a></li>
-                       <li><a href="#">about me</a></li>
-                       <li><a href="#">blog</a></li>
+                       <li><a href="index.php">home</a></li>
+                       <li><a href="about.php">about me</a></li>
+                       <li><a href="blog.php">blog</a></li>
                        <li><a href="#">our services</a></li>
                        <li><a href="#">testimonials</a></li>
                        <li><a href="#">contact us</a></li>
