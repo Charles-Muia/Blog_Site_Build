@@ -113,7 +113,7 @@
                                         voluptas! Deleniti earum minima repellendus. Adipisci maiores sint sit.
                                     </p>
 
-                                    <h4>Section 1.10.32 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Written By CS Muia in 23 BC </h4>
+                                    <h4>Section 1.10.32 Lorem ipsum dolor sit amet, consectetur adipisicing elit. — Written By CS Muia in 23 BC </h4>
 
                                     <p>
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur deserunt enim ipsam,
@@ -156,7 +156,7 @@
                                     <blockquote>
                                         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto, aut autem dolor earum eos fugiat hic,
                                         ipsam minima nesciunt nobis quis rem
-                                        repellendus rerum suscipit temporibus voluptatum. Distinctio, porro!" - <i>Scholastica Ngunju.</i>
+                                        repellendus rerum suscipit temporibus voluptatum. Distinctio, porro!" — <i>Scholastica Ngunju.</i>
                                     </blockquote>
 
                                     <h4>2023 TRANSLATION BY H.E. William S. Ruto. </h4>
@@ -248,7 +248,7 @@
                     <i class="fab fa-youtube"></i>
                 </div>
                     <div class="copyright">
-                        <p> &#9400;2023, Blog Site. all rights reserved. <br>  <a href=""><span>Tech</span>ware scope solutions</a></p>
+                        <p> Blog Site . &#169; 2023 .  all rights reserved. <br>  <a href=""><span>Tech</span>ware scope solutions</a></p>
                     </div>
             </div>
         </footer>

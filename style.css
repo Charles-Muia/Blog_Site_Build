@@ -162,6 +162,11 @@
                 text-transform: uppercase;
         }
 
+       .by {
+           text-transform: lowercase;
+           color: #ffffff;
+       }
+
         .btn {
                 display: inline-block;
                 text-transform: capitalize;
