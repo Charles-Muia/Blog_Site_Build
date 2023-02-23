@@ -6,6 +6,7 @@
                 font-family: 'Jost', sans-serif;
                 box-sizing: border-box;
                 /*background-color: #dddddd;*/
+                scroll-behavior: smooth;
             }
 
 /*-----------------------------------------Blog site scroll bar section---------------------------------------*/
@@ -24,7 +25,7 @@
             align-items: center;
             justify-content: center;
             transform: scale(0.9);
-            transition: 0.5s;
+            transition: all 0.5s ease 0s;
             z-index: 99;
         }
 
@@ -38,6 +39,9 @@
             pointer-events: none;
         }
 
+        html {
+            scroll-behavior: smooth;
+        }
 
 /*-----------------------------------------Blog site header section-------------------------------------------*/
 
