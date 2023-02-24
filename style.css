@@ -31,6 +31,7 @@
 
         #scroll:hover {
             transform: scale(1);
+            background-color: #ffa600;
         }
 
         svg {
@@ -38,6 +39,7 @@
             width: 2.5rem;
             pointer-events: none;
         }
+
 
         html {
             scroll-behavior: smooth;

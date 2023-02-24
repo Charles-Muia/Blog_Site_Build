@@ -34,26 +34,6 @@
 </head>
 <body>
 
-<!----------------------------------------Blog site scroll bar section---------------------------------------->
-
-        <button onclick="topFunction()" id="scroll" title="Go to top">
-
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l7.5-7.5 7.5 7.5m-15 6l7.5-7.5 7.5 7.5" />
-            </svg>
-
-        </button>
-
-
-<!--        <button onclick="scrollFunction()" id="scroll" title="Go to top">-->
-<!--            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">-->
-<!--                <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l7.5-7.5 7.5 7.5m-15 6l7.5-7.5 7.5 7.5" />-->
-<!--            </svg>-->
-<!---->
-<!--        </button>-->
-<!---->
-<!--            <div class="scroll-top"></div>-->
-
 <!----------------------------------------Blog site header section-------------------------------------------->
 
         <header>
@@ -62,7 +42,7 @@
                    <ul class="nav-list">
                        <li><a href="index.php">home</a></li>
                        <li><a href="about.php">about me</a></li>
-                       <li><a href="#articles-area">blog</a></li>
+                       <li><a href="blog.php">blog</a></li>
                        <li><a href="#">our services</a></li>
                        <li><a href="#">testimonials</a></li>
                        <li><a href="#">contact us</a></li>
@@ -274,20 +254,15 @@
         </footer>
 
 
+<!----------------------------------------Blog site scroll bar section---------------------------------------->
+
+        <button onclick="topFunction()" id="scroll" title="">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l7.5-7.5 7.5 7.5m-15 6l7.5-7.5 7.5 7.5" />
+            </svg>
+        </button>
+
 <!----------------------------------------Script for the Blog site scroll bar section----------------------------------------------->
-
-<!--            <script>-->
-<!--                const scrollTopButton = document.querySelector('.scroll-top');-->
-<!---->
-<!--                scrollTopButton.addEventListener('click', ()=> {-->
-<!--                    window.scrollTo(0, 0);-->
-
-
-<!---->
-<!--                })-->
-<!--            </script>-->
-
-
 
             <script>
                 // Get the button
@@ -296,9 +271,8 @@
                 // When the user scrolls down 20px from the top of the document, show the button
                 window.onscroll = function() {scrollFunction()};
 
-
                 function scrollFunction() {
-                    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200 ) {
+                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
                         mybutton.style.display = "block";
                     } else {
                         mybutton.style.display = "none";
@@ -311,7 +285,6 @@
                     document.documentElement.scrollTop = 0;
                 }
             </script>
-
 
 <!----------------------------------------Script for the responsive mobile menu section--------------------------------------------->
 
