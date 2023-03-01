@@ -240,18 +240,25 @@
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;
+                /*transition: all 1s ease;*/
         }
 
+        main .content .content-img-container:hover {
+                /*transform: scale(.9,.9);*/
+                cursor: pointer;
+        }
+
+
         blockquote {
-                font-size: 1.4rem;
-                padding: 2rem 3rem;
-                line-height: 2;
-                font-weight: 400;
-                /*box-shadow: inset 0.6rem 0 0 #663399;*/
-                box-shadow: inset 0.6rem 0 10rem #663399;
-                background-color: #222222;
-                /*color: #f0ff88;*/
-                color: #f0f8ff;
+            font-size: 1.4rem;
+            padding: 2rem 3rem;
+            line-height: 2;
+            font-weight: 400;
+            /*box-shadow: inset 0.6rem 0 0 #663399;*/
+            box-shadow: inset 0.6rem 0 10rem #663399;
+            background-color: #222222;
+            /*color: #f0ff88;*/
+            color: #f0f8ff;
         }
 
         .tags {
