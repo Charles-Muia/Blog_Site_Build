@@ -41,7 +41,7 @@
                 <div class="logo"><h1>Blog Site</h1></div>
                    <ul class="nav-list">
                        <li><a href="#">home</a></li>
-                       <li><a href="#">about me</a></li>
+                       <li><a href="about.php">about me</a></li>
                        <li><a href="#">blog</a></li>
                        <li><a href="#">our services</a></li>
                        <li><a href="#">testimonials</a></li>
@@ -248,7 +248,7 @@
                     <i class="fab fa-youtube"></i>
                 </div>
                     <div class="copyright">
-                        <p> Blog Site . &#169; 2023 .  all rights reserved. <br>  <a href=""><span>Tech</span>ware scope solutions</a></p>
+                        <p> Blog Site. &#169; 2023.  all rights reserved. <br> <br>  Website by <br> <a href=""><span>Tech</span>ware scope solutions</a></p>
                     </div>
             </div>
         </footer>
